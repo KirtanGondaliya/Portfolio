@@ -26,7 +26,7 @@ const HeroSection = () => {
         <TextGenerateEffect words={wordslength} className="md:w-96 lg:w-[72%] text-gray-300" />
         <Link href="#" className="inline-block group">
           <div className="mt-[2vw] mr-6">
-            <h1 className="text-3xl group-hover:text-green-500 transition-all duration-100 ease-in font-bold">MY CV📖</h1>
+            <Link href={AllLinks.resume} className="text-3xl group-hover:text-green-500 transition-all duration-100 ease-in font-bold">MY CV📖</Link>
             <div className="w-24 h-2 bg-green-500 rounded-full"></div>
             <div className="w-24 h-2 bg-indigo-500 translate-x-2 rounded-full"></div>
           </div>
