@@ -3,11 +3,11 @@ import React from "react";
 import { SiHtml5, SiJavascript, SiReact, SiTailwindcss } from "react-icons/si";
 import Title from "./Title";
 import { cn } from "@/lib/utils";
-import Icon from "react-icons/si";
 import { DirectionAwareHover } from "@/components/ui/direction-aware-hover";
 import { ChevronRight } from "lucide-react";
 import AnimatedGradientText from "@/components/magicui/animated-gradient-text";
 import Link from "next/link";
+import Icon from "react-icons/si";
 import { AllLinks } from "@/app/data/data";
 
 const Project = () => {
@@ -21,7 +21,7 @@ const Project = () => {
     },
     {
       title: "OCHI Design",
-      tech: [, SiReact, SiTailwindcss, SiJavascript],
+      tech: [SiReact, SiTailwindcss, SiJavascript],
       link: "https://ochidesign-nz9jugtjc-kirtangondaliyas-projects.vercel.app/",
       cover: "/project-2.png",
       background: "bg-green-500",
