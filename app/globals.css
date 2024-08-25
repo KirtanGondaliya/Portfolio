@@ -59,10 +59,6 @@
   }
 }
 
-::-webkit-scrollbar-thumb{
-  display: none;
-  opacity: 0
-}
 
 @layer base {
   * {
@@ -79,3 +75,6 @@
   border-radius: 50%;
   box-shadow:0 0 200px 130px #c026d3;
 }
+  ::-webkit-scrollbar-thumb{
+    display: none;
+  }
