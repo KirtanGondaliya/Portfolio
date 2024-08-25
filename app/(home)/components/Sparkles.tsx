@@ -11,7 +11,7 @@ import { useRef, useState } from "react";
 
 const Sparkles = () => {
   const [buttonText, setButtonText] = useState("COPY");
-  const h3Ref =useRef(null);
+  const h3Ref =useRef<HTMLHeadingElement>(null);
   const copy = () => {
     if (h3Ref.current) {
       const textToCopy = h3Ref.current.innerText;
